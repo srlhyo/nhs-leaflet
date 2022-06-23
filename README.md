@@ -56,6 +56,6 @@ As I wanted to build a page that matches the leaflet design, I visited the **NHS
 
 If you don't know about or have never worked with DEV TOOLS, it may be something you want to get some hands-on experience in the future; the tool comes with a lot of features that make the developer's work a a lot easier! 
 
-#### Credits
+### Credits
 I want to thank my man Krizalias once again for the inspiring chat that made me go building this little project. I hope that this is the first of many to come!
 
