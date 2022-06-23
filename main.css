@@ -1,0 +1,74 @@
+/***** General ******/
+/********************/
+
+/* variables */
+:root {
+    --text-color: #282828;
+    --bg-color: #005eb8;
+    --logo-text-color: white;
+    --warning-color: #e8e8be;
+}
+
+/* font */
+@font-face {
+    font-family: 'Frutiger';
+    src: local('Frutiger'), url('/fonts/Frutiger.woff') format('woff');
+    }
+    
+@font-face {
+    font-family: 'Frutiger Bold';
+    src: local('Frutiger Bold'), url('/fonts/Frutiger_bold.woff') format('woff');
+}
+
+/* reset styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* global styles */
+
+body {
+    font-family: 'Frutiger';
+    display: flex;
+    justify-content: center;
+    color: var(--text-color);
+}
+
+body p {
+    font-size: 22px;
+}
+
+br {
+    display: block;
+    margin: 5px 0;
+}
+  
+/***** HEADER ******/
+/*******************/
+  
+header {
+    padding: 45px 55px 30px 55px;
+    background: var(--bg-color);
+    text-align: right;
+}
+
+header .logo {
+    margin-right: 5px;
+}
+
+.nhs-topic p {
+    font-family: 'Frutiger Bold';
+    color: var(--logo-text-color);
+    margin-top: 5px;
+}
+
+/***** ASIDE ******/
+/*******************/
+
+aside {
+    background: var(--warning-color);
+    padding: 20px 55px;
+}
